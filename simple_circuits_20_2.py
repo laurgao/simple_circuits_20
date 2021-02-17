@@ -7,8 +7,8 @@ def simple_circuits_20(angle):
     return qml.probs(wires=[0])
     
 # Load and process input
-    angle_str = sys.stdin.read()
-    angle = float(angle_str)
+angle_str = sys.stdin.read()
+angle = float(angle_str)
 
 output = simple_circuits_20(angle)
 print(output[0])
